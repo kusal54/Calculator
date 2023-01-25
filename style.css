@@ -11,7 +11,7 @@ body {
     margin-top: 75px;
 }
 
-.cal-wrapper{
+.cal-wrapper {
     width: 50%;
     border: 1px solid #000000;
     margin: 20px;
@@ -19,7 +19,7 @@ body {
     border-radius: 10px;
 }
 
-.display{
+.display {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ body {
     margin: 1px;
     border-radius: 10px;
     border: none;
-    font-size: 15px;
+    font-size: 18px;
     background-color: #8f8f8f;
     color: #ffffff;
 }
@@ -78,16 +78,24 @@ body {
 }
 
 
-@media(max-width:768px){
+@media(max-width:768px) {
     .btn {
-        height: 50px;
+        height: 70px;
     }
 
-    .display{
-        height: 120px;
+    .display {
+        height: 200px;
     }
 
     .container {
-        margin-top: 100px;
+        margin-top: 20px;
+    }
+
+    .cal-wrapper {
+        width: 90%;
+    }
+
+    .btn{
+        height: 70px;
     }
 }
