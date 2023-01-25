@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-top: 75px;
 }
 
 .cal-wrapper{
@@ -74,4 +75,19 @@ body {
     font-size: 18px;
     background-color: #757575;
     font-weight: bold;
+}
+
+
+@media(max-width:768px){
+    .btn {
+        height: 50px;
+    }
+
+    .display{
+        height: 120px;
+    }
+
+    .container {
+        margin-top: 100px;
+    }
 }
