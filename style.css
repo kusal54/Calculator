@@ -15,6 +15,7 @@ body {
     border: 1px solid #000000;
     margin: 20px;
     background-color: rgb(63, 63, 63);
+    border-radius: 10px;
 }
 
 .display{
@@ -34,8 +35,10 @@ body {
     text-align: right;
     padding: 10px;
     border: none;
-    font-size: 20px;
+    font-size: 30px;
     background-color: rgb(63, 63, 63);
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .cal-btns1 {

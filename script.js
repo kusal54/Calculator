@@ -29,6 +29,14 @@ btn0.addEventListener('click', () =>{
     document.getElementById('answer').value += "0"
 })
 
+
+btn0.addEventListener('', () =>{
+    document.getElementById('answer').value += "0"
+})
+
+
+
+
 btn1.addEventListener('click', () =>{
     document.getElementById('answer').value += "1"
 })
