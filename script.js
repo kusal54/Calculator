@@ -101,6 +101,6 @@ btnEq.addEventListener('click', () => {
     let result = eval(document.getElementById('answer').value)
 
     document.getElementById('btnEq').onclick = function () {
-        console.log(result)
+        document.getElementById('answer').value = result
     }
 })
