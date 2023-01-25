@@ -25,85 +25,82 @@ const answer = document.getElementById('answer')
 
 
 
-btn0.addEventListener('click', () =>{
+btn0.addEventListener('click', () => {
     document.getElementById('answer').value += "0"
 })
 
 
-btn0.addEventListener('', () =>{
-    document.getElementById('answer').value += "0"
-})
-
-
-
-
-btn1.addEventListener('click', () =>{
+btn1.addEventListener('click', () => {
     document.getElementById('answer').value += "1"
 })
 
-btn2.addEventListener('click', () =>{
+btn2.addEventListener('click', () => {
     document.getElementById('answer').value += "2"
 })
 
-btn3.addEventListener('click', () =>{
+btn3.addEventListener('click', () => {
     document.getElementById('answer').value += "3"
 })
 
-btn4.addEventListener('click', () =>{
+btn4.addEventListener('click', () => {
     document.getElementById('answer').value += "4"
 })
 
-btn5.addEventListener('click', () =>{
+btn5.addEventListener('click', () => {
     document.getElementById('answer').value += "5"
 })
 
-btn6.addEventListener('click', () =>{
+btn6.addEventListener('click', () => {
     document.getElementById('answer').value += "6"
 })
 
-btn7.addEventListener('click', () =>{
+btn7.addEventListener('click', () => {
     document.getElementById('answer').value += "7"
 })
 
-btn8.addEventListener('click', () =>{
+btn8.addEventListener('click', () => {
     document.getElementById('answer').value += "8"
 })
 
-btn9.addEventListener('click', () =>{
+btn9.addEventListener('click', () => {
     document.getElementById('answer').value += "9"
 })
 
-btnAdd.addEventListener('click', () =>{
+btnAdd.addEventListener('click', () => {
     document.getElementById('answer').value += "+"
 })
 
-btnMin.addEventListener('click', () =>{
+btnMin.addEventListener('click', () => {
     document.getElementById('answer').value += "-"
 })
 
-btnMul.addEventListener('click', () =>{
+btnMul.addEventListener('click', () => {
     document.getElementById('answer').value += "*"
 })
 
-btnDv.addEventListener('click', () =>{
+btnDv.addEventListener('click', () => {
     document.getElementById('answer').value += "/"
 })
 
-btnDot.addEventListener('click', () =>{
+btnDot.addEventListener('click', () => {
     document.getElementById('answer').value += "."
 })
 
 
-btnAc.addEventListener('click', () =>{
+btnAc.addEventListener('click', () => {
     document.getElementById('answer').value = ""
 })
 
-btnDel.addEventListener('click', () =>{
+btnDel.addEventListener('click', () => {
     document.getElementById('answer').value = ""
 })
 
 
-btnEq.addEventListener('click', () =>{
-    ///////////////////////////////////////////Don't know th code//////////////////////////////////////////////////////////
-    
+
+btnEq.addEventListener('click', () => {
+    let result = eval(document.getElementById('answer').value)
+
+    document.getElementById('btnEq').onclick = function () {
+        console.log(result)
+    }
 })
