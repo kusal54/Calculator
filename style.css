@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #b3b3b3;
+    background-color: #f3f3f3;
     ;
 }
 
@@ -44,17 +44,17 @@ body {
     font-weight: bold;
 }
 
-.cal-btns1 {
+.cal-buttons1 {
     display: grid;
     grid-template-columns: 50% 25% 25%;
 }
 
-.cal-btns2 {
+.cal-buttons2 {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
 
-.cal-btns3 {
+.cal-buttons3 {
     display: grid;
     grid-template-columns: 25% 25% 50%;
 }
