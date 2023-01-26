@@ -92,7 +92,7 @@ btnAc.addEventListener('click', () => {
 })
 
 btnDel.addEventListener('click', () => {
-    document.getElementById('answer').value = ""
+    document.getElementById('answer').value = answer.value.toString().slice(0,-1)
 })
 
 
