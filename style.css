@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-color: #b3b3b3;
+    ;
 }
 
 .container {
@@ -8,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 25px;
 }
 
 .cal-wrapper {
@@ -58,7 +60,7 @@ body {
 }
 
 .btn {
-    height: 75px;
+    height: 80px;
     margin: 1px;
     border-radius: 10px;
     border: none;
@@ -68,11 +70,7 @@ body {
 }
 
 .btn:hover {
-    height: 75px;
-    margin: 1px;
-    border-radius: 10px;
-    border: none;
-    font-size: 18px;
+    font-size: 19px;
     background-color: #757575;
     font-weight: bold;
 }
@@ -95,7 +93,11 @@ body {
         width: 90%;
     }
 
-    .btn{
+    .btn {
         height: 70px;
+    }
+
+    .answer {
+        font-size: 40px;
     }
 }
